@@ -7,7 +7,9 @@ import { IonicModule } from '@ionic/angular';
 import { IntroPageRoutingModule } from './intro-routing.module';
 
 import { IntroPage } from './intro.page';
+
 import {CUSTOM_ELEMENTS_SCHEMA} from '@angular/core';
+
 @NgModule({
   imports: [
     CommonModule,

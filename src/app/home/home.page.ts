@@ -8,6 +8,7 @@ import { Icon } from 'ionicons/dist/types/components/icon/icon';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+ 
 
   
   constructor() {}

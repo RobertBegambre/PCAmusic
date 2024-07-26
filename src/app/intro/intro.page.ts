@@ -7,38 +7,41 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IntroPage implements OnInit {
 
-  slides = [
+  slides=[
     {
-      Title: "titulo de slide 1",
+      title:"titulo del slide 1",
       icon:"diamond-outline",
-      avatar:"https://as2.ftcdn.net/v2/jpg/05/79/49/49/1000_F_579494977_SJqiMuqaZX72bNNg1jkfoItRK8miicGQ.jpg",
-      imagen:"https://cdn.shopify.com/s/files/1/0268/6861/files/Gran-Danes_grande.jpg?v=1535218743",
-      descripcion:"texto de descipcion",
+      avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHCZuslFbn42wwA9qw6ywBERhtpr_yOFy3Cw&s",
+      image:"https://img.freepik.com/vector-gratis/sala-control-estudio-musica-cabina-cantante_107791-1637.jpg",
+      description:"descripcion"
     }
 ,
     {
-      Title: "titulo de slide 2",
+      title:"titulo del slide 2",
       icon:"diamond-outline",
-      avatar:"https://as2.ftcdn.net/v2/jpg/05/79/49/49/1000_F_579494977_SJqiMuqaZX72bNNg1jkfoItRK8miicGQ.jpg",
-      imagen:"https://cdn.shopify.com/s/files/1/0268/6861/files/Gran-Danes_grande.jpg?v=1535218743",
-      descripcion:"texto de descipcion hola hola",
+      avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHCZuslFbn42wwA9qw6ywBERhtpr_yOFy3Cw&s",
+      image:"https://img.freepik.com/vector-gratis/sala-control-estudio-musica-cabina-cantante_107791-1637.jpg",
+      description:"descripcion"
     }
 ,
-
     {
-      Title: "titulo de slide 3",
+      title:"titulo del slide 3",
       icon:"diamond-outline",
-      avatar:"https://as2.ftcdn.net/v2/jpg/05/79/49/49/1000_F_579494977_SJqiMuqaZX72bNNg1jkfoItRK8miicGQ.jpg",
-      imagen:"https://cdn.shopify.com/s/files/1/0268/6861/files/Gran-Danes_grande.jpg?v=1535218743",
-      descripcion:"texto de descipcion  hola ultimo slide",
+      avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHCZuslFbn42wwA9qw6ywBERhtpr_yOFy3Cw&s",
+      image:"https://img.freepik.com/vector-gratis/sala-control-estudio-musica-cabina-cantante_107791-1637.jpg",
+      description:"descripcion"
+    }
+,
+    {
+      title:"titulo del slide 4",
+      icon:"diamond-outline",
+      avatar:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHCZuslFbn42wwA9qw6ywBERhtpr_yOFy3Cw&s",
+      image:"https://img.freepik.com/vector-gratis/sala-control-estudio-musica-cabina-cantante_107791-1637.jpg",
+      description:"descripcion"
     }
   ]
 
   constructor() { }
-
-  close(){
-
-  }
 
   ngOnInit() {
   }
